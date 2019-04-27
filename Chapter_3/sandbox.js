@@ -1,14 +1,23 @@
-//------------ logical operators - || && start------------------
-const password = 'passwof@';
+//------------ logical NOT (!) start------------------
+let user = false;
 
-if(password.length >= 12 && password.includes('@')){
-    console.log('that password is mighty strong');
-} else if(password.length >= 8 || password.includes('@') && password.length > 5){
-    console.log('that password is strong enough');
-} else{
-    console.log('that password is not strong enough');
+if(!user){
+    console.log('you must be logged in to continue');
 }
-//------------ logical operators - || && end------------------
+
+//------------ logical NOT (!) end------------------
+
+// //------------ logical operators - || && start------------------
+// const password = 'passwof@';
+
+// if(password.length >= 12 && password.includes('@')){
+//     console.log('that password is mighty strong');
+// } else if(password.length >= 8 || password.includes('@') && password.length > 5){
+//     console.log('that password is strong enough');
+// } else{
+//     console.log('that password is not strong enough');
+// }
+// //------------ logical operators - || && end------------------
 
 // //------------ if statements start------------------
 // // const age = 30;
