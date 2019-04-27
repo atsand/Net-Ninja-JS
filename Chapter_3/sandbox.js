@@ -1,26 +1,38 @@
-//------------ if statements start------------------
-// const age = 30;
+//------------ logical operators - || && start------------------
+const password = 'passwof@';
 
-// if(age > 20){
-//     console.log('you are over 20 years old');
-// }
-
-// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
-
-// if(ninjas.length > 3){
-//     console.log("that's a lot of ninjas");
-// }
-
-const password = 'password';
-
-if(password.length >= 12){
+if(password.length >= 12 && password.includes('@')){
     console.log('that password is mighty strong');
-} else if(password.length >= 8){
-    console.log('that password is long enough');
+} else if(password.length >= 8 || password.includes('@') && password.length > 5){
+    console.log('that password is strong enough');
 } else{
-    console.log('that password is not long enough');
+    console.log('that password is not strong enough');
 }
-//------------ if statements end------------------
+//------------ logical operators - || && end------------------
+
+// //------------ if statements start------------------
+// // const age = 30;
+
+// // if(age > 20){
+// //     console.log('you are over 20 years old');
+// // }
+
+// // const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
+
+// // if(ninjas.length > 3){
+// //     console.log("that's a lot of ninjas");
+// // }
+
+// const password = 'password';
+
+// if(password.length >= 12){
+//     console.log('that password is mighty strong');
+// } else if(password.length >= 8){
+//     console.log('that password is long enough');
+// } else{
+//     console.log('that password is not long enough');
+// }
+// //------------ if statements end------------------
 
 // //------------ do while loops start------------------
 // let i = 0;
