@@ -1,11 +1,32 @@
-//------------ logical NOT (!) start------------------
-let user = false;
+//------------ break and continue start------------------
+const scores = [50, 25, 0, 30, 100, 20, 10];
 
-if(!user){
-    console.log('you must be logged in to continue');
+for (let i = 0; i < scores.length; i++) {
+
+    if(scores[i] === 0){
+        //breaks out of current itteration and continue
+        continue;
+    }
+
+    console.log('your score: ', scores[i]);
+
+    if(scores[i] === 100){
+        console.log('congrats, you got the top score!');
+        //breaks out of outer loop and stops
+        break;
+    }
+    
 }
+//------------ break and continue end------------------
 
-//------------ logical NOT (!) end------------------
+// //------------ logical NOT (!) start------------------
+// let user = false;
+
+// if(!user){
+//     console.log('you must be logged in to continue');
+// }
+
+// //------------ logical NOT (!) end------------------
 
 // //------------ logical operators - || && start------------------
 // const password = 'passwof@';
