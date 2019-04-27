@@ -1,14 +1,32 @@
-//common string methods
-let email = 'mario@thenetninja.co.uk';
+// let radius = 10;
+// const pi = 3.14;
 
-//let result = email.lastIndexOf('n');
+// console.log(radius, pi);
 
-//let result = email.slice(0,email.lastIndexOf('.'));
+//math operators +, -, *, /, **, %
 
-//let result = email.substr(4,10);
+// console.log(10 / 2);
+// let result = radius % 3;
+//let result = pi * radius**2;
 
-//let result = email.replace('m','w');
+//console.log(result);
 
-let result = email.replace('n','w');
+let likes = 10;
 
+//likes = likes +1;
+//likes++;
+//likes--;
+//likes += 10;
+//likes -= 5;
+//likes *= 2;
+//likes /= 2;
+
+//console.log(likes);
+
+//NaN - not a number
+
+// console.log(5 / 'hello');
+// console.log(5 * 'hello');
+
+let result = 'the blog has ' + likes + ' likes';
 console.log(result);
