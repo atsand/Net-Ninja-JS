@@ -1,3 +1,27 @@
+//------------ if statements start------------------
+// const age = 30;
+
+// if(age > 20){
+//     console.log('you are over 20 years old');
+// }
+
+// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
+
+// if(ninjas.length > 3){
+//     console.log("that's a lot of ninjas");
+// }
+
+const password = 'password';
+
+if(password.length >= 12){
+    console.log('that password is mighty strong');
+} else if(password.length >= 8){
+    console.log('that password is long enough');
+} else{
+    console.log('that password is not long enough');
+}
+//------------ if statements end------------------
+
 // //------------ do while loops start------------------
 // let i = 0;
 // do{
